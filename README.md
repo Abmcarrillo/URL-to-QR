@@ -24,3 +24,9 @@
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/URL-to-QR.git
+2. Instala las dependencias:
+   ```bash
+   pip install -r requirements.txt
+3. Ejecuta el programa:
+   ```bash
+   python src/QR.py
