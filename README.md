@@ -30,3 +30,18 @@
 3. Ejecuta el programa:
    ```bash
    python src/QR.py
+   
+## Generar un Ejecutable Portable
+Si deseas crear un archivo ejecutable (.exe), sigue estos pasos:
+1. Instala PyInstaller:
+   ```bash
+   pip install pyinstaller
+2. Genera el ejecutable:
+   ```bash
+   pyinstaller --onefile --windowed --name "URL-to-QR" --icon=assets/URL-to-QR.ico src/QR.py
+   
+## Licencia
+Este proyecto está bajo la licencia MIT. Siéntete libre de usarlo, modificarlo y distribuirlo.
+Creado con ❤️ por @abmcarrillo.
+¡Si te gusta el proyecto, deja una ⭐ en el repositorio!
+
